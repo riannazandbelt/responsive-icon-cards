@@ -21,22 +21,29 @@ body {
   margin: 0;
 }
 
-img {
+.cards {
+  list-style-type: none;
+}
+
+.card-img img {
   display: block;
   width: 100%;
+}
+
+img {
   max-width: 50px;
 }
 
-h2 {
+.card-body h2 {
   font-weight: normal;
   margin-bottom: 0;
 }
 
-p {
+.card-body p {
   margin-top: 0;
 }
 
-ul {
+.card {
   list-style-type: none;
   padding: 0;
 }
@@ -50,6 +57,10 @@ ul {
   img {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  ul {
+    margin-top: .65rem;
   }
 
 }
