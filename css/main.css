@@ -81,18 +81,35 @@ img {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    width: 33.333%;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
-
+  html {
+    font-size: 130%;
+  }
 
 }
