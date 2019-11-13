@@ -68,6 +68,7 @@ img {
   p {
     margin-bottom: 1.5rem;
   }
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -75,7 +76,6 @@ img {
   h2 {
     margin-top: 1.1rem;
   }
-
 
 }
 
